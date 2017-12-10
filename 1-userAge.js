@@ -7,6 +7,15 @@
  *
  */
 
-const user = {} // copy the one from the previous exercice
+const userAge = {
+        'age' : 18,
+    
+} // copy the one from the previous exercice
 
 // Your code :
+
+
+console.log(userAge['age'])
+
+const assert = require('assert')
+assert.strictEqual( typeof userAge, 'object')

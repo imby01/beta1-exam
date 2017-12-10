@@ -20,3 +20,15 @@
  */
 
 // Your code :
+const user ={
+      'name' : 'imby',
+      'email' : 'imbyvictoria21@gmail.com',
+      'age' : 21,
+
+}
+console.log(user['name'])
+console.log(user['email'])
+console.log(user['age'])
+
+const assert = require('assert')
+assert.strictEqual( typeof user, 'object')
